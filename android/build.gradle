@@ -60,7 +60,8 @@ dependencies {
     api 'androidx.legacy:legacy-support-v4:1.0.0'
 
     implementation fileTree(include:['*.jar'],dir:'libs')
-    implementation files('libs/fastjson-1.2.31.jar')
+    //implementation files('libs/fastjson-1.2.31.jar')
+    implementation 'com.alibaba:fastjson:1.2.31'
     // 支付宝
     implementation files('libs/alipaySdk-15.7.5-20200422171619.aar')
     //银联
